@@ -200,7 +200,7 @@ for i in range(2, 11):
     
     response = groq_client.chat.completions.create(
         messages=messages,
-        model="llama-3.3-70b-versatile",
+        model="llama-3.1-8b-instant",
         max_tokens=100,
         temperature=0.7
     )
